@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "明星同款",
+  "usingComponents": {
+    "water-fall": "/components/WaterFall/main"
+  }
+}

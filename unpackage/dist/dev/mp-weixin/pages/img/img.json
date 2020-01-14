@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "同款结果",
+  "usingComponents": {
+    "imgs": "/components/Imgs/main",
+    "matches": "/components/Matches/main",
+    "loading": "/components/Loading/main",
+    "default": "/components/Default/main",
+    "uni-popup": "/components/uni-ui/uni-popup/uni-popup",
+    "popup-filter": "/components/Filter/main",
+    "water-fall": "/components/WaterFall/main"
+  }
+}

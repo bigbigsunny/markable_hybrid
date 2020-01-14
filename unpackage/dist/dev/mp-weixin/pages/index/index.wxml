@@ -1,0 +1,1 @@
+<view class="page data-v-2868ea8d"><water-fall vue-id="1" list="{{list}}" class="data-v-2868ea8d" bind:__l="__l"></water-fall></view>

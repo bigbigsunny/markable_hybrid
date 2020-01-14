@@ -1,0 +1,115 @@
+
+.flow-box.data-v-21285232 {
+		position: relative;
+		color: #1a1a1a;
+		padding-bottom: 0px;
+    margin-top:16rpx;
+}
+.flow-box .item.data-v-21285232 {
+		position: absolute;
+		left: 16rpx;
+		/* width: calc(50% - 32upx); */
+    width:351rpx;
+		/* border: 1upx solid #f9f9f9; */
+    -webkit-box-shadow:0px 2px 6px 0px rgba(0,0,0,0.1);
+            box-shadow:0px 2px 6px 0px rgba(0,0,0,0.1);
+    border-radius: 5rpx;
+}
+.flow-box .left.data-v-21285232 {
+		left: 383rpx;
+}
+.pic.data-v-21285232{
+    width:100%;
+    display: block;
+    border-top-left-radius: 8rpx;
+    border-top-right-radius: 8rpx;
+}
+.wall-desc-box.data-v-21285232{
+    width:100%;
+    height:128rpx;
+    background: #fff;
+}
+.left-content.data-v-21285232{
+    width:248rpx;
+    height:auto;
+    padding:12rpx 0 0 16rpx;
+    float: left;
+}
+.title.data-v-21285232{
+    width:248rpx;
+    height:60rpx;
+    font-size: 22rpx;
+    margin-top:8rpx;
+    font-family: PingFangSC-Semibold, sans-serif;
+}
+.tag.data-v-21285232{
+    color:#A255FB;
+}
+.info.data-v-21285232{
+    width:100%;
+    height:30rpx;
+    /* background: #00f; */
+    margin-top:8rpx;
+}
+.point.data-v-21285232{
+    width:16rpx;
+    height:16rpx;
+    border-radius: 50%;
+    background: #F8BA03;
+    float: left;
+    margin:12rpx 4rpx 0 0;
+}
+.source-item.data-v-21285232{
+    width:auto;
+    height:30rpx;
+    line-height: 30rpx;
+}
+.source-text.data-v-21285232{
+    margin-right:6rpx;
+    font-size: 16rpx;
+}
+.right-like.data-v-21285232{
+    float: right;
+    width:60rpx;
+    height:auto;
+    margin: 28rpx 15rpx 0 0;
+    /* background: #00f; */
+}
+.like-icon.data-v-21285232{
+    width:40rpx;
+    height:32rpx;
+    display: block;
+    margin:0 auto;
+}
+.liked.data-v-21285232{
+    font-size: 18rpx;
+    color: #606060;
+    text-align: center;
+    display: block;
+    margin-top:10rpx;
+}
+.shop-box.data-v-21285232{
+    position: absolute;
+    top:0;
+    right:0;
+    width:64rpx;
+    height:52rpx;
+    background: #fff;
+    /* box-shadow:0px 2px -6px 0px rgba(0,0,0,0.6) */
+    -webkit-box-shadow:-2px 2px 6px rgba(0,0,0,0.6);
+            box-shadow:-2px 2px 6px rgba(0,0,0,0.6);
+}
+.shop-img.data-v-21285232{
+    width:30rpx;
+    height:30rpx;
+    display: block;
+    margin:11rpx 6rpx;
+    float: left;
+}
+.shop-num.data-v-21285232{
+    line-height: 60rpx;
+    font-size: 16rpx;
+    color: #A255FB;
+    float: left;
+}
+
