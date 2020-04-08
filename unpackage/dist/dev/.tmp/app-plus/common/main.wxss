@@ -14,6 +14,12 @@ page {
 		font-family: PingFangSC-Thin, sans-serif;
     font-size: 24rpx;
 }
+
+  /* @media only screen and (min-width: 700px) {
+  .page{
+    width:750px;
+  }
+} */
 .weight {
 
     font-family: PingFangSC-Medium, sans-serif !important;
@@ -48,6 +54,12 @@ template {
     background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIIAAACCCAYAAACKAxD9AAAAAXNSR0IArs4c6QAABOdJREFUeAHtnVtTE0EUhCeEiyBagqgPWv7/v2UVVAkoPHCVq6d3meolCVSSYqOc7qkKHHJbu/vbmdmZpBzcRytu8g4syTtgAxoHDIJBMAhmgA64R6AX0pVBkI6f4g0CvZCuDIJ0/BRvEOiFdGUQpOOneINAL6QrgyAdP8UbBHohXRkE6fgp3iDQC+nKIEjHT/EGgV5IVwZBOn6KNwj0QroyCNLxU7xBoBfSlUGQjp/iDQK9kK4MgnT8FG8Q6IV0ZRCk46d4g0AvpCuDIB0/xRsEeiFdGQTp+CneINAL6cogSMdP8QaBXkhXBkE6foo3CPRCujII0vFTvEGgF9KVQZCOn+INAr2QrgyCdPwUbxDohXRlEKTjp3iDQC+kK4MgHT/FGwR6IV0ZBOn4Kd4g0AvpyiBIx0/xBoFeSFcGQTp+il9m+bqr67tSDi5Kubgppe//k2YwKGU9nPu8XspKklMpiYwWgvPr/iHA6QLQcCyAl6Wl6RHQE6DhTMWtz4Zj1Vufx1nke/ds2eKk1OEAEHx80+9xf18uZgjqV8Xjd08zNDyW5b9mdcAgzOpY0uenGRqey+fkqpTTmNwNA/vttVKWjf+YXelBAAQ/z6n7IoD4/q4UXAK60YH05wZ6gm67ivUG3NweO5AeBAwHo81Dw6gjpUywafxJr/kezAlWOyp3YjVw6GFhLNL0cwSc/ZgTYDhAbQjGGGjuSA8CVGJiuDacbIDvbR3odJq2ZFoH7mKvIVuT6BFeKjQMLwdxKVr3NV7qff+H95EBAdvU+w/rCV82Zts+Rgdw/KeUo9htTNgZNBxKgAAIdk9LuYnfaKi/bU4Hw2XsNO4HAFe37WvxcynmHNmGh/RzhFEIECSAAAx47KmGoH8FALtnhABrEuhNPsQlabaWGgQEvdfpCbYiQNzQAAMemwTDWaxG/jhph4O6vb25Epeh0Yu8X21fn+1n2qGhQlCDxlmMxaSmRdd+HJ8pqM/5+jBM3AYch3E/9idqw9oDPpL2NkDI3FKCcB3j+V506V0IPlUIIs0dfHAlun5MACsMAOUo/gYMaFh7wNmP52JOkL2lAwHBYlyvE8OtCLIJfiTJpnfo9AyHnc8fYvEJ4PT9kbeRf9I//TMdCN1u/SkIquMABCf7UQwHaOgFsDeBeYTaNnU6ENpI2zAn9QT18fobn29E14/LQwwPqkvR6UBAqDijtyPgaVu9kpj2+Rmfl+7yEWf1LBBkDHUeTelAmMcEvya26LOYgMkdFn+wIYTvHfTZ6qZTpgllGhBwqYevoS3yG0iZLi/TDA1Y/duI1b9FnKU4Bo6FY2Zpg/toWcRYx/wOpOkR5rfAr4QDBsEcNA4YBINgEMwAHXCPQC+kK4MgHT/FGwR6IV0ZBOn4Kd4g0AvpyiBIx0/xBoFeSFcGQTp+ijcI9EK6MgjS8VO8QaAX0pVBkI6f4g0CvZCuDIJ0/BRvEOiFdGUQpOOneINAL6QrgyAdP8UbBHohXRkE6fgp3iDQC+nKIEjHT/EGgV5IVwZBOn6KNwj0QroyCNLxU7xBoBfSlUGQjp/iDQK9kK4MgnT8FG8Q6IV0ZRCk46d4g0AvpCuDIB0/xRsEeiFdGQTp+CneINAL6cogSMdP8QaBXkhXBkE6foo3CPRCujII0vFTvEGgF9KVQZCOn+INAr2Qrv4Cm3HLyp8n9sQAAAAASUVORK5CYII=') center center no-repeat;
     background-position: center;
     background-size: cover;
+}
+.omit1{
+    overflow: hidden;
+    -o-text-overflow:ellipsis;
+       text-overflow:ellipsis;
+    white-space: nowrap;
 }
 .omit2{
     display: -webkit-box;

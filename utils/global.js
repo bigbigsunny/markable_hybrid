@@ -12,7 +12,16 @@ const getSystemInfo = function (attr) {
   return system[attr]
 }
 
+function showToast (title, duration = 1000, icon = 'none') {
+  uni.showToast({
+    title,
+    duration,
+    icon
+  })
+}
+
 export default {
   getSystemInfo,
-  navigateTo
+  navigateTo,
+  showToast
 }

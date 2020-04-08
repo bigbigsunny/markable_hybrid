@@ -1,6 +1,6 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages、 
-		{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages、 	            
+    {
 			"path": "pages/index/index",
 			"style": {
 				"navigationBarTitleText": "明星同款",
@@ -26,11 +26,23 @@
                 "scrollIndicator": "none"
               }
             }
-        }
-        ,{
+        },
+{
+            "path" : "pages/video/video",
+            "style" : {
+              "navigationBarTitleText": "潮流合伙人"
+            }
+        },
+{
+            "path" : "pages/video/qad",
+            "style" : {
+              "navigationBarTitleText": "亲爱的热爱的"
+            }
+        },
+      {
             "path" : "pages/img/webview/webview",
             "style" : {}
-        }
+        }                                
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

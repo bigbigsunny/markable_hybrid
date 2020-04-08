@@ -77,7 +77,7 @@
         "template" : "",
         "router" : {
             "mode" : "hash",
-            "base" : ""
+            "base" : "h5"
         },
         "optimization" : {
             "treeShaking" : {

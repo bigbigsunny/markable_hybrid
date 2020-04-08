@@ -102,11 +102,11 @@
 /******/
 /******/
 /******/ 		// mini-css-extract-plugin CSS loading
-/******/ 		var cssChunks = {"components/WaterFall/main":1,"components/WaterFall/style":1,"components/Default/main":1,"components/Filter/main":1,"components/Imgs/main":1,"components/Loading/main":1,"components/Matches/main":1,"components/uni-ui/uni-popup/uni-popup":1,"components/Magic/main":1};
+/******/ 		var cssChunks = {"components/WaterFall/main":1,"components/WaterFall/style":1,"components/Default/main":1,"components/Filter/main":1,"components/Imgs/main":1,"components/Loading/main":1,"components/Matches/main":1,"components/uni-ui/uni-popup/uni-popup":1,"components/Matches/test":1,"components/Magic/main":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
-/******/ 				var href = "" + ({"components/WaterFall/main":"components/WaterFall/main","components/WaterFall/style":"components/WaterFall/style","components/Default/main":"components/Default/main","components/Filter/main":"components/Filter/main","components/Imgs/main":"components/Imgs/main","components/Loading/main":"components/Loading/main","components/Matches/main":"components/Matches/main","components/uni-ui/uni-popup/uni-popup":"components/uni-ui/uni-popup/uni-popup","components/Magic/main":"components/Magic/main"}[chunkId]||chunkId) + ".wxss";
+/******/ 				var href = "" + ({"components/WaterFall/main":"components/WaterFall/main","components/WaterFall/style":"components/WaterFall/style","components/Default/main":"components/Default/main","components/Filter/main":"components/Filter/main","components/Imgs/main":"components/Imgs/main","components/Loading/main":"components/Loading/main","components/Matches/main":"components/Matches/main","components/uni-ui/uni-popup/uni-popup":"components/uni-ui/uni-popup/uni-popup","components/Matches/test":"components/Matches/test","components/Magic/main":"components/Magic/main"}[chunkId]||chunkId) + ".wxss";
 /******/ 				var fullhref = __webpack_require__.p + href;
 /******/ 				var existingLinkTags = document.getElementsByTagName("link");
 /******/ 				for(var i = 0; i < existingLinkTags.length; i++) {

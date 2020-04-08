@@ -96,7 +96,7 @@
           limit: 10,
           skip: this.$filter.getRandom(100) // 随机展示skip
         },
-        from: 'mai',
+        from: 'h5_mai',
         platform: this.$global.getSystemInfo('platform'),
         scrollTop: 0,
         top: 0
@@ -246,7 +246,7 @@
           this.matches = renderArr
           this.boundingBox = boundingBoxArr
           
-          this.getImgStyle() // 获取同款穿搭 在同款结果完成之后进行请求 
+          // this.getImgStyle() // 获取同款穿搭 在同款结果完成之后进行请求 
         }).catch(() => {
           // 加载失败
           this.searchApi = false

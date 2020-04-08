@@ -37,7 +37,10 @@ const getImageSearch = function (data) {
 // 根据图片URI 获取同款结果
 const getClientSearch = function (data) {
 // return POST(`http://localhost:13370/client/snapshot`, data)
-  return POST(`https://iqiyi-poc.markableai.cn/client/snapshot`, data)
+  // return POST(`https://iqiyi-poc.markableai.cn/client/snapshot`, data)
+  return POST(`https://cn-sandbox.mynatapp.cc/client/snapshot`, data)
+  // return POST(`${videoUrl}/client/snapshot`, data)
+  
 }
 
 // 根据图片URI 获取同款穿搭

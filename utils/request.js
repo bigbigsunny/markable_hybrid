@@ -32,8 +32,8 @@ export const POST = function (url, data) {
       data,
       method: 'POST',
       header: {
-        "user_id": '5e1863dfdea880002a87d693',
-        'Authorization': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZTE4NjNkZmRlYTg4MDAwMmE4N2Q2OTUiLCJpYXQiOjE1Nzg3MzY3MDcsImV4cCI6MTU3OTk0NjMwN30.3LyEvyMaLkmOc487tz5toKPBtZK8SfmP5oDDZsIlfeU',
+        "user_id": '5e815d0da794a116dfd44006',
+        'Authorization': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZTgxNWQwZWE3OTRhMTE2ZGZkNDQwMDgiLCJpYXQiOjE1ODU1MzYyNzAsImV4cCI6MTU4Njc0NTg3MH0.jaj8TQcJAYOpWwapOAdlNNjOoq39npWAkMGQA1DooBk',
         // 'Authorization': 'Bearer 5db0182f0785be000fd4e534', // 授权token 参考之前APP的写法
         'Content-Type': 'application/json',
         'Cache-Control': 'max-age=14400', // 2 * 24 * 60 * 60 2天过期 与后台同步

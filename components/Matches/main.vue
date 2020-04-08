@@ -57,8 +57,9 @@
       },      
       toPath (url, id) {
         // #ifdef H5
-        // console.log(this.$filter.transUrl(decodeURIComponent(url), id, this.from))
-        window.location.href = this.$filter.transUrl(decodeURIComponent(url), id, this.from)
+        console.log(decodeURIComponent(url))
+        console.log(this.$filter.transUrl(decodeURIComponent(url), id, this.from))
+        // window.location.href = this.$filter.transUrl(decodeURIComponent(url), id, this.from)
         // #endif
         // #ifdef APP-PLUS
         plus.runtime.openURL(decodeURIComponent(url))
