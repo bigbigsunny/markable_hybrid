@@ -1,7 +1,0 @@
-{
-  "navigationBarTitleText": "明星同款",
-  "scrollIndicator": "none",
-  "usingComponents": {
-    "water-fall": "/components/WaterFall/main"
-  }
-}

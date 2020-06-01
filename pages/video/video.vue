@@ -1,12 +1,13 @@
 <template>
 	<view class="page">
-		<video :src="videdList[0].src" id="myVideo" class="video" @pause="handlePause"
-    @timeupdate="handleTimeupdate"></video>
-    <view class="content">
+<!-- 		<video :src="videdList[0].src" id="myVideo" class="video" @pause="handlePause"
+    @timeupdate="handleTimeupdate"></video> -->
+<!--    <view class="content">
       <view class="p24" v-if="matches.length > 0">
         <Matches :list="matches" />
       </view>    
-    </view>       
+    </view>  -->     
+    
 	</view>
 </template>
 

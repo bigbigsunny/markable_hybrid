@@ -73,11 +73,11 @@
     },
     "h5" : {
         "title" : "明星同款",
-        "domain" : "www.bjzwnx.com",
+        "domain" : "search.markableai.cn",
         "template" : "",
         "router" : {
             "mode" : "hash",
-            "base" : "h5"
+            "base" : ""
         },
         "optimization" : {
             "treeShaking" : {

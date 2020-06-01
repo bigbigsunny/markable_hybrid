@@ -1,1 +1,0 @@
-<view><block wx:for="{{list}}" wx:for-item="item" wx:for-index="__i0__"><image style="width:92%;border-radius:10rpx;margin:20rpx auto 0;display:block;" src="{{item}}" mode="widthFix" data-event-opts="{{[['tap',[['toPath',['$0'],[[['list','',__i0__]]]]]]]}}" bindtap="__e" class="_img"></image></block></view>

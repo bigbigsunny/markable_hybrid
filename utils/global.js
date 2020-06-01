@@ -20,8 +20,16 @@ function showToast (title, duration = 1000, icon = 'none') {
   })
 }
 
+function showLoading () {
+  uni.showLoading({
+    title: '加载中',
+    mask: true
+  })
+}
+
 export default {
   getSystemInfo,
   navigateTo,
-  showToast
+  showToast,
+  showLoading
 }

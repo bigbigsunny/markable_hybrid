@@ -38,7 +38,7 @@ const getImageSearch = function (data) {
 const getClientSearch = function (data) {
 // return POST(`http://localhost:13370/client/snapshot`, data)
   // return POST(`https://iqiyi-poc.markableai.cn/client/snapshot`, data)
-  return POST(`https://cn-sandbox.mynatapp.cc/client/snapshot`, data)
+  return POST(`https://dev.markableai.cn/client/snapshot`, data)
   // return POST(`${videoUrl}/client/snapshot`, data)
   
 }

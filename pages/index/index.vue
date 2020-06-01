@@ -37,7 +37,8 @@
           limit: this.limit,
           skip: this.skip,
         }).then(res => {
-          let data = res.data.data
+          console.log(res.data.data.result, 32132)
+          let data = res.data.data.result
           if (typeof res.data === 'string') {
             console.log('unicode 处理')
             data = this.$filter.decodeUnicode(res.data).data

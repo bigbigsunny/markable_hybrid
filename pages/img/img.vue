@@ -180,7 +180,9 @@
             }
           }
         }).then(res => {
-          const { data, meta } = res.data
+          // const { data, meta } = res.data
+          let data = res.data.data.result
+          let meta = res.data.meta
           // 没有数据返回
           if (!data || data.length === 0) {
             this.showDefault = true
@@ -246,7 +248,7 @@
           this.matches = renderArr
           this.boundingBox = boundingBoxArr
           
-          // this.getImgStyle() // 获取同款穿搭 在同款结果完成之后进行请求 
+          this.getImgStyle() // 获取同款穿搭 在同款结果完成之后进行请求 
         }).catch(() => {
           // 加载失败
           this.searchApi = false
@@ -269,7 +271,7 @@
           }
         }).then(res => {
           // 数据返回为string 需要做特殊字符解析
-          let data = res.data.data
+          let data = res.data.data.result
           if (typeof res.data === 'string') {
             console.log('unicode 处理')
             data = this.$filter.decodeUnicode(res.data).data
